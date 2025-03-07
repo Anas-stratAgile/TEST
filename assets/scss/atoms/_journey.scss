@@ -1,0 +1,13 @@
+.hw-journey {
+  display: flex;
+  color: black;
+  align-items: center;
+  img {
+    width: 35px;
+    height: 35px;
+  }
+  span {
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,16 @@
+.hw-hour {
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid #f7be2c;
+  color: white;
+  padding-left: 12px;
+  &__number {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  &__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 4px;
+  }
+}

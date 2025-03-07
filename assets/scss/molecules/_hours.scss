@@ -1,0 +1,9 @@
+@import "../atoms/hour";
+
+.hw-hours {
+  display: flex;
+  padding: 20px;
+  background-color: #ff9257;
+  width: 100%;
+  justify-content: space-around;
+}

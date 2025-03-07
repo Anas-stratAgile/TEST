@@ -1,0 +1,29 @@
+.hw-customers {
+  background-image: url("../images/Mask-group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  &__tile {
+    width: 200px;
+    height: 200px;
+    margin: 10px 16px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@include mobile {
+  .hw-customers {
+    justify-content: center;
+  }
+}
+
+@include tablet {
+  .hw-customers {
+    justify-content: center;
+  }
+}

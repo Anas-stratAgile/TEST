@@ -1,0 +1,31 @@
+.hw-main {
+  &__outer {
+    background-image: url("../images/Line.png");
+    margin: 32px 0;
+  }
+  &__page {
+    display: flex;
+  }
+  .hw-customers {
+    width: 47%;
+    justify-content: center;
+  }
+  .hw-landing__info {
+    flex: 1;
+  }
+}
+
+@include mobile-tablet {
+  .hw-main {
+    &__page {
+      flex-direction: column;
+      padding: 0;
+    }
+    &__outer{
+      margin: 0;
+    }
+    .hw-customers {
+      width: 100%;
+    }
+  }
+}
